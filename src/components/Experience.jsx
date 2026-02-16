@@ -1,20 +1,20 @@
 function Experience() {
   return (
-    <section id="experience" className="py-20 scroll-mt-10">
-      <h2 className="text-3xl font-bold mb-10">Experience</h2>
+    <section id="experience" className="py-16">
+      <h2 className="text-3xl font-semibold mb-8">Experience</h2>
 
-      <div className="bg-white p-6 rounded-xl shadow-sm border">
-        <h3 className="text-xl font-semibold">Frontend Developer</h3>
+      <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+        <h3 className="text-xl font-semibold">Software Developer - Product-Based Startup</h3>
 
-        <p className="text-gray-500 mb-4">
+        <p className="text-gray-500 mb-3">
           Packapill Technologies Pvt Ltd | 2024 August - Present
         </p>
 
-        <ul className="space-y-2 text-gray-600">
-          <li>• Developed scalable React-based healthcare applications.</li>
-          <li>• Implemented Stripe payment integration for appointment booking.</li>
-          <li>• Improved API rendering performance and search logic.</li>
-          <li>• Collaborated with backend (Springboot) and QA teams.</li>
+        <ul className="list-disc  ml-5 space-y-2 text-gray-700">
+          <li>• Built and maintained healthcare booking flows using React.</li>
+          <li>• Integrated Stripe payment system for secure transactions.</li>
+          <li>• Integrated and optimized RESTful APIs for real-time appointment booking and patient data management.</li>
+          <li>• Collaborated with UI and backend teams in agile environment.</li>
         </ul>
       </div>
     </section>

@@ -11,7 +11,10 @@ function Contact() {
 
         <div className="space-y-4 text-gray-700">
           <p>
-            <strong>Email:</strong> s.muthuselvakumar@gmail.com
+            <strong>Email:</strong>{" "}
+            <a href="mailto:s.muthuselvakumar@gmail.com" className="text-blue-600 hover:underline">
+              s.muthuselvakumar@gmail.com
+            </a>
           </p>
           <p>
             <strong>LinkedIn:</strong>{" "}
@@ -21,7 +24,7 @@ function Contact() {
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              View Profile
+              Profile
             </a>
           </p>
           <p>
@@ -32,7 +35,7 @@ function Contact() {
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              View GitHub
+              GitHub
             </a>
           </p>
         </div>

@@ -5,8 +5,7 @@ function Hero() {
         Hi, I'm <span className="text-blue-600">Muthuselvakumar</span>
       </h1>
       <p className="text-lg text-gray-600 max-w-2xl mb-8">
-        2 years of experience building scalable product applications including
-        booking systems, healthcare platforms, and secure payment integrations.
+        Product-focused React developer with 2+ years of experience building scalable healthcare and booking systems with secure payment integrations. Passionate about building clean UI and reliable production-grade applications.
       </p>
 
       <div className="flex gap-4">
